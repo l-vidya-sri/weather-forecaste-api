@@ -1,0 +1,11 @@
+.city-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
+}
+.city{
+    box-shadow: 0px 3px 4px rgba(0, 0, 0,0.6);
+    border-radius: 15px;
+    padding: 30px;
+    min-height: 2vh;
+    }
